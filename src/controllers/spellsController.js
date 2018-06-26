@@ -4,7 +4,7 @@ exports.list = async (req, res) => {
     try {
         let spells = await Spell.getAll();
         spells = spells.map((spell) => {
-            spell.img = req.hostname + '/' + spell.img;
+            spell.img = `${req.hostname}/${spell.img}`;
             return spell;
         });
         return res.json(spells);
