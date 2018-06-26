@@ -1,0 +1,27 @@
+{
+  "name": "rs-game-api",
+  "version": "1.0.0",
+  "description": "API for Rolling Scopes School final game",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verus774/rs-game-api.git"
+  },
+  "keywords": [],
+  "author": "Sergey Ladutko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verus774/rs-game-api/issues"
+  },
+  "homepage": "https://github.com/verus774/rs-game-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
