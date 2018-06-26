@@ -1,0 +1,6 @@
+[
+  {"id": "1", "title": "Порча", "img": "img/spells/evil-eye-red.png", "value": -10, "difficulty": 1},
+  {"id": "2", "title": "Шары ярости", "img": "img/spells/fireball-red.png", "value": -20, "difficulty": 2},
+  {"id": "3", "title": "Нефритовое сердце", "img": "img/spells/heal-jade.png", "value": 10, "difficulty": 1},
+  {"id": "4", "title": "Королевское сердце", "img": "img/spells/heal-royal.png", "value": 20, "difficulty": 2}
+]
